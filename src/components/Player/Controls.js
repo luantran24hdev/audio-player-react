@@ -148,7 +148,7 @@ function Controls(props) {
         customAdditionalControls={[
           <div className="inner-control">
             <div className="control-l">
-              <span className="text-value">{valueSpeed}x</span>,
+              <span className="text-value">{valueSpeed}x</span>
               <IconButton
                 onClick={handleSkipBack}
                 className="btn-pad bdr"

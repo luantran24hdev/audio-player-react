@@ -171,3 +171,6 @@ body {
 .rhap_volume-controls {
     display: none !important;
 }
+.bdr {
+    border: 1px solid #fff !important;
+}
