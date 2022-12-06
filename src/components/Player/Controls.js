@@ -143,7 +143,7 @@ function Controls(props) {
               <PlayCircleFilledWhiteIcon fontSize="large" />
             </IconButton>
           ),
-          RHAP_UI.PROGRESS_BAR,
+          RHAP_UI.PROGRESS_BAR
         ]}
         customAdditionalControls={[
           <div className="inner-control">
@@ -156,7 +156,7 @@ function Controls(props) {
               >
                 <RemoveIcon fontSize="large" />
               </IconButton>
-              ,
+              
               <IconButton
                 onClick={handleSkipForward}
                 className="btn-pad bdr"
@@ -164,7 +164,7 @@ function Controls(props) {
               >
                 <AddIcon fontSize="large" />
               </IconButton>
-              ,
+              
               <div className="btn-pad-last">
                 <IconButton
                   onClick={handleSkip10s}
@@ -181,9 +181,9 @@ function Controls(props) {
                   <Forward30Icon fontSize="large" />
                 </IconButton>
               </div>
-              ,
+              
             </div>
-            ,
+            
             <div className="control-vlume">
               <IconButton className="cl-w">
                 <VolumeDownIcon />
@@ -197,8 +197,8 @@ function Controls(props) {
               />
               {/* <div className="pd"></div>, */}
             </div>
-            ,
-          </div>,
+            
+          </div>
         ]}
         // other props here
       />

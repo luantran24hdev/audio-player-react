@@ -150,3 +150,24 @@ body {
     align-items: center;
     width: 40% !important;
 }
+.inner-control {
+    display: flex !important;
+   justify-content: space-between !important;
+    width: 100% !important;
+}
+.rhap_additional-controls {
+    display: flex !important;
+    width: 70% !important;
+}
+.control-l {
+    display: flex !important;
+    align-items: center;
+}
+.control-vlume {
+    display: flex;
+    align-items: center;
+    width: 30% !important;
+}
+.rhap_volume-controls {
+    display: none !important;
+}
