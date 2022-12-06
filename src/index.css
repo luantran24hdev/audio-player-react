@@ -167,10 +167,15 @@ body {
     display: flex;
     align-items: center;
     width: 30% !important;
+    
 }
 .rhap_volume-controls {
     display: none !important;
 }
 .bdr {
     border: 1px solid #fff !important;
+}
+.btn-pad, .btn-pad-last {
+    margin: 0 5px !important;
+    color: white !important;
 }
